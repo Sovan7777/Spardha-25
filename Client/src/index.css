@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "@fontsource/dancing-script";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+/* Custom styles for the bento grid section */
+.event-image, .event-text {
+  transition: transform 0.5s ease-out;
+}
+
+.event-image img {
+  transition: transform 0.5s ease-out;
+}
+
+.event-image:hover img {
+  transform: scale(1.05);
+}
